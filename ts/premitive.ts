@@ -1,5 +1,5 @@
 // Type Annotation
-let a: number;
+// let a: number;
 
 // a='Mark';
 
