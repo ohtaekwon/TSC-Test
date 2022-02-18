@@ -1,7 +1,7 @@
 // Type Annotation
 let a: number;
 
-a='Mark';
+// a='Mark';
 
 a=39;
 
@@ -10,6 +10,6 @@ function hello(b:number){
 }
 
 hello(39);
-hello('Mark');
+// hello('Mark');
 
 
