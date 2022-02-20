@@ -1,6 +1,6 @@
 "use strict";
 // Type Annotation
-let a;
+// let a: number;
 // a='Mark';
 a = 39;
 function hello(b) {
