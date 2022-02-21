@@ -421,3 +421,21 @@ if (typeof a !== 'string'){
 }
 ```
 - 위의 결과에서 a string과 number의 union형태이기 때문에 `(string + number) - string` 인 상태이기 때문에 `number` 의 형태로 선언이 된다.
+
+
+<br>
+
+# 14. void
+
+<br>
+
+```ts
+function returnVoid(message:string):void{
+  console.log(message);
+  
+  return undefined;
+}
+// r의 타입은 void
+const r = returnVoid('리턴이 없다.'); 
+
+```
