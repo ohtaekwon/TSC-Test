@@ -1,0 +1,39 @@
+# 02. Primitive Type
+
+<br>
+
+## Primitive Type
+
+- 오브젝트와 레퍼런스 형태가 아닌 **실제 값을 저장하는 자료형이다.**
+- 프리미티브 형의 내장 함수를 사용하는 것은 자바스크립트 처리 방식 덕분
+- (ES2015 기준)6가지
+  - boolean
+  - number
+  - string
+  - symbol(ES2015)
+  - null
+  - undefined
+
+```ts
+  let name = 'mark';
+  name.toString();
+```
+
+- literal 값으로 Primitive 타입의서브 타입을 나타낼 수 있다.
+
+```ts
+true;
+'hello';
+3.14;
+null;
+undefined
+```
+
+- 또는 래퍼 객체로 만들 수 있다.
+
+```ts
+new Boolean(false); // typeof new Boolean(fasle) : 'object'
+new String('world'); // typeof new String('world') : 'object'
+new Number(42); // typeof new Number(42) : 'object'
+```
+<br>
