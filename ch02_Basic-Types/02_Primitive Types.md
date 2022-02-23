@@ -37,3 +37,23 @@ new String('world'); // typeof new String('world') : 'object'
 new Number(42); // typeof new Number(42) : 'object'
 ```
 <br>
+
+
+## Type Casing
+
+- **TypeScript의 핵심 primitive types은 모두 소문자이다.**
+
+```ts
+function reverse(s:String):String{
+  return s.split("").reverse().join("");
+}
+reverse("hello Wordl");
+```
+대신에 `number`, `string`, `boolean`, `object`, `symbol` 타입은 소문자로 사용한다. 
+
+```ts
+function reverse(s:string):string{
+  return s.split("").reverse().join("");
+}
+reverse("hello World");
+```
