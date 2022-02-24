@@ -3,7 +3,7 @@
 
 // a='Mark';
 
-a=39;
+// a=39;
 
 function hello(b:number){
   

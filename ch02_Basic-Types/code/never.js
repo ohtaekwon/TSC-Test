@@ -12,3 +12,4 @@ function infiniteLoop() {
 if (typeof a !== 'string') {
     a;
 }
+// const b : Indexable<{}> = '';
