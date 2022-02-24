@@ -3,7 +3,7 @@
 
 <br/>
 
-### 1. object vs Object
+## 8.1. object vs Object
 
 ```ts
 // 1. create by object literal
@@ -20,12 +20,12 @@ const person2 = Object.create({name:'Mark',age:39});
 // const person3 = Object.create(39);
 ```
 
-### object
+## 8.2. object
 
 - a type that represents the **non-primitive type**
 - **"primitive type이 아닌 것"** 을 나타내고 싶을 때 사용하는 타입
 
-### non-primitive type
+## 8.3. non-primitive type
 
 - **not** number, string, boolean, bigint, symbol, null, or undefined
 
@@ -43,7 +43,4 @@ obj = 100n; // Error
 obj = Symbol(); // Error
 obj = null; // Error
 obj = undefined; // Error
-
-
 ```
-<br/>

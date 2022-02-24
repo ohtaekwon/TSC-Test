@@ -2,7 +2,7 @@
 
 <br>
 
-## Symbol
+## 6.1. Symbol
 - ECMAScript 2015의 Symbol이다.
 - `new Symbol` 로 **사용할 수 없다.**
 - Symbol을 함수로 사용해서 **symbol** 타입을 만들어낼 수 있다.
@@ -19,6 +19,8 @@ console.log(Symbol('foo')===Symbol('foo'))
 - 그래서 주로 접근을 제어하는데 쓰는 경우가 많다.
 
 <br/>
+
+## 6.2. Symbol의 사용
 
 ##### 문자열 처럼, 심벌은 객체 프로퍼티의 키로써 사용될 수 있다.
 
