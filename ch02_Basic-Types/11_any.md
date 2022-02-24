@@ -2,8 +2,7 @@
 
 <br>
 
-## any
-
+### any
 - 어떤 타입이어도 상관없는 타입이다.
 - 이걸 최대한 쓰지 않는게 핵심이다.
 - 왜냐하면 컴파일 타임에 타입 체크가 정상저으로 이뤄지지 않기 때문이다.
@@ -16,7 +15,7 @@
 function returnAny(message: any):any{
   console.log(message);
 }
-const any1 = returnAny('리턴은 아무거나');
+const any1 = returnAny('리턴은 아무거나'); // any : 결과물이 정해져 있지 않고, 무엇이든지 나올 수 있다. 
 any1.toString();
 ``` 
 

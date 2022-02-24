@@ -1,8 +1,8 @@
 // returnAny라는 함수는 message라는 인수를 받으며,
 // return타입은 any이다.
-function returnAny(message: any):any{
+function returnAny(message:any):any{
   console.log(message);
-}
+} 
 
 const any1 = returnAny('리턴은 아무거나');
 

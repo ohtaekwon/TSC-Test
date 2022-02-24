@@ -1,5 +1,6 @@
 "use strict";
 // strictNullChecks => true
+/* error가 발생한다. */
 // let MyName:string = null;
 // let u : undefined = null;
 let v = undefined;

@@ -13,3 +13,5 @@ const person:[string, number]=["Mark",39]
 
 // 디스트럭쳐링
 const [first, second, /*third*/] = person;
+console.log(first); // Mark
+console.log(second); // 39
