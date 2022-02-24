@@ -1,26 +1,49 @@
 # 08. object
 
-<br>
+
+<br/>
+
+### 1. object vs Object
 
 ```ts
-// create by object literal
+// 1. create by object literal
 const person1 = {name:'Mark', age:39};
 // person1 is not "object" type.
 // person1 is "{name:string, age:number}" type.
 
-// create by Object.create
+// 2. create by Object.create
+// Object는 소문자가 아닌, 대문자이기 때문에,
 // Object는 내장 전역객체이다. 
 const person2 = Object.create({name:'Mark',age:39});
+
+// 3. 안되는 유형들
+// const person3 = Object.create(39);
 ```
 
-## object
+### object
 
 - a type that represents the **non-primitive type**
-- **"primitive type 이 아닌 것"** 을 나타내고 싶을 때 사용하는 타입
+- **"primitive type이 아닌 것"** 을 나타내고 싶을 때 사용하는 타입
 
-## non-primitive type
+### non-primitive type
 
 - **not** number, string, boolean, bigint, symbol, null, or undefined
 
+```ts
 
-<br>
+let obj : object = {}; // 가능은 하지만, 이런식으로 사용은 하지 않는다. 
+obj = {name:'mark'};
+obj = [{name:'Mark'}];
+
+// 이런식은 넣을 수 없다.
+obj = 39; // Error
+obj = 'Mark'; // Error
+obj = true; // Error
+obj = 100n; // Error
+obj = Symbol(); // Error
+obj = null; // Error
+obj = undefined; // Error
+
+
+```
+<br/>
