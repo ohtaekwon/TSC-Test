@@ -5,18 +5,20 @@
 ### structural type system - 구조가 같으면, 같은 타입이다.
 
 ```ts
+// interface
 interface IPerson {
   name:string;
   age:number;
   speak():string;
 }
 
+// typeAlias
 type PersonType={
   name:string;
   age:number;
   speak():string;
 };
-
+// 위는 같은 구조이기 때문에 서로 대입할 수 있다.
 let personInterface : IPerson = {} as any;
 let personType : PersonType= {} as any;
 

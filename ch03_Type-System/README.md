@@ -12,5 +12,11 @@
 - [03. 타입 호환성(Type Compatibility)](https://github.com/ohtaekwon/TSC-Test/blob/master/ch03_Type-System/03_%ED%83%80%EC%9E%85%20%ED%98%B8%ED%99%98%EC%84%B1.md)
     - 서브타입(1)
     - 서브타입(2)
-
-- [04. 타입 별칭(Type Ailas)]()
+    - 공변
+    - 반병
+- [04. 타입 별칭(Type Ailas)](https://github.com/ohtaekwon/TSC-Test/blob/master/ch03_Type-System/04_%ED%83%80%EC%9E%85%EB%B3%84%EC%B9%AD(TypeAlias).md)
+    - 4.1. 타입별칭(별명)
+    - 4.2. Aliasing Primitive
+    - 4.3. Aliasing Union Type
+    - 4.4. Aliasing Tuple
+    - 4.5. Aliasing Function
