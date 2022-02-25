@@ -1,11 +1,11 @@
 # ch4. TypeScript Compiler
 
 ### INDEX
-- [01.Compilation Context]()
+- [01.Compilation Context](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/01_Compilation-Context.md)
 
-- [02. tsconfig schema]()
+- [02. tsconfig schema](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/02_tsconfig-Schema.md)
 
-- [03. compileOnSave]()
+- [03. compileOnSave](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/03_compileOnSave.md)
 
 - [04. extends]()
 
