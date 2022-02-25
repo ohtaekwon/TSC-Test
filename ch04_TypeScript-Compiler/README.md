@@ -11,10 +11,10 @@
 
 - [05. files, include, exclude](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/05_file_include_exclude.md)
 
-- [06. comileOptions - typeRoots, types](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/06_compileOptions-typeRoots-types.md)
+- [06. compileOptions - typeRoots, types](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/06_compileOptions-typeRoots-types.md)
 
-- [07. comileOptions - target과 lib]()
+- [07. compileOptions - target과 lib]()
 
-- [08. comileOptions - outDir, outFile, rootDir]()
+- [08. compileOptions - outDir, outFile, rootDir]()
 
-- [09. comileOptions - strict]()
+- [09. compileOptions - strict]()
