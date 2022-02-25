@@ -7,9 +7,9 @@
 
 - [03. compileOnSave](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/03_compileOnSave.md)
 
-- [04. extends]()
+- [04. extends](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/04_extends.md)
 
-- [05. files, include, exclude]()
+- [05. files, include, exclude](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/05_file_include_exclude.md)
 
 - [06. comileOptions - typeRoots, types]()
 
