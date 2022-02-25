@@ -5,7 +5,7 @@
 
 - [02. tsconfig schema]()
 
-- [03. comileOnSave]()
+- [03. compileOnSave]()
 
 - [04. extends]()
 
