@@ -10,6 +10,8 @@ function fail() {
 function infiniteLoop() {
     while (true) { }
 }
+// let a : string = "hello"
+// declare const a : string | number;
 if (typeof a !== 'string') {
     a;
 }
