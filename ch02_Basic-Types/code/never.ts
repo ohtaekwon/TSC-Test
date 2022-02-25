@@ -13,7 +13,7 @@ function infiniteLoop():never{
 }
 
 // let a : string = "hello"
-declare const a : string | number;
+// declare const a : string | number;
 
 if (typeof a !== 'string'){
   a;

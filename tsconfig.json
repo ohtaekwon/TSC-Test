@@ -1,5 +1,7 @@
 {
   // "compileOnSave": true,
+  // "extends":"./base.json",
+  // "extends":"@tsconfig/deno/tsconfig.json",
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 

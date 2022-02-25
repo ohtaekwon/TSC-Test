@@ -2,7 +2,7 @@
 
 <br>
 
-### 3.1. compileOnSave의 구조
+### 3.1. compileOnSave Schema
 
 ```ts
 {...,
