@@ -38,7 +38,7 @@
 
 ![ch04_09_2](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_2.png?raw=true)
 
-![ch04_09_3.png]()
+![ch04_09_3.png](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_3.png?raw=true)
 
 
 - 첫번째 매개변수 자리에 `this`를 놓고, `this`에 대한 타입을 어떤 것이라도 표현하지 않으면, `noImplicitAny`가 오류를 발생시킨다.
@@ -47,7 +47,7 @@
 - 그래서 `this`를 any로 명시적으로 지정하는 것은 합리적이다.(물론 구체적인 사용처가 있는 경우 타입을 표현한다.)
 
 
-![ch04_09_4.png]()
+![ch04_09_4.png](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_4.png?raw=true)
 
 - Class에서는 this를 사용하면서, `noImplictThis`와 관련된 에러가 나지 않는다.
 - Class에서 `constructor`를 제외한 멤버 함수의 첫번쨰 매개변수도 일반 함수와 마찬가지로 `this`를 사용할 수 있다.
@@ -58,13 +58,13 @@
 - strictNullChecks 모드에서는, null 및 undefined 값이 모든 유형의 도메인에 속하지 않으며, 그 자신을 타입으로 가지거나 any일 경우에만 할당이 가능하다.
 - 한 가지 예외는 `undefined` 에 `void` 할당 가능
 
-![ch04_09_5.png]()
+![ch04_09_5.png](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_5.png?raw=true)
 
 - strictNullChecks를 작용하지 않으면,
     - 모든 타입은 null, undefined 값을 가질 수 있다.
     - string으로 타입을 지정해도, null 혹은 undefined값을 할당할 수 있다.
 
-![ch04_09_6.png]()
+![ch04_09_6.png](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_6.png?raw=true)
 
 - strictNullChecks를 적용하면,
     - 모든 타입은 null, undefined 값을 가질 수 없고, 가지려면 union type을 이용해서 직접 명시해야 한다.
