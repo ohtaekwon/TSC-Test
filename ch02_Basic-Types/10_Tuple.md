@@ -1,8 +1,9 @@
 # 10. Tuple
 
-<br>
 
-## 10.1. 튜블의 특성
+
+### 10.1. 튜블의 특성
+
 ```ts
 // 1. // 항상 순서와, 타입과 길이가 맞아야한다.
 let x : [string, number];
@@ -17,7 +18,7 @@ x[2] = "world";
 ```
 - 튜블 타입은 항상 순서와, 타입과 길이가 맞아야한다. 
 
-## 10.2. 딕스트럭쳐링
+### 10.2. 딕스트럭쳐링
 
 ```ts
 const person:[string, number]=["Mark",39]
@@ -31,4 +32,3 @@ console.log(first); // Mark
 console.log(second); // 39
 
 ```
-<br>
