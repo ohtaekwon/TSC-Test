@@ -37,3 +37,7 @@
 - 타입스크립트 컴파일 : `npx tsc --init`
     - 루트 경로에 `tsconfig.json` 파일이 생성된다. 
 - default 설정 : `Type Checking` 으로 주석처리된 부분의 `"strict":true,`이 `true`로 설정되어 있으면 된다. 
+
+#### 3.2. default 설정
+
+- `tsconfig.json` 파일에서 `"strict" : true` 가 되어있는지를 확인한다. 
