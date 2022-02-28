@@ -1,6 +1,5 @@
 # 03. boolean
 
-
 ### 3.1. boolean Types
 
 ```ts
