@@ -2,7 +2,7 @@
 
 <br>
 
-## 4.1. Number / number
+### 4.1. Number / number
 
 - JavaScript와 같이, TypeScript의 모든 숫자는 부동 소수점 값 이다.
 - TypeScript는 16진수 및 10진수 리터럴 외에도, ECMAScript 2015에 도입된 2진수 및 8진수를 지원한다.
@@ -23,5 +23,3 @@ let notANumber:number = NaN; // Not a number
 let underscoreNum:number = 1_000_000;
 
 ```
-
-<br>
