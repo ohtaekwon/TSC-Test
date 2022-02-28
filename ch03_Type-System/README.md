@@ -20,3 +20,8 @@
     - 4.3. Aliasing Union Type
     - 4.4. Aliasing Tuple
     - 4.5. Aliasing Function
+
+
+### 참고 사이트
+
+- TypeScript 공홈 : [TSC HOME](https://www.typescriptlang.org/)

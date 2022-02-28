@@ -15,9 +15,9 @@ function infiniteLoop():never{
 // let a : string = "hello"
 // declare const a : string | number;
 
-if (typeof a !== 'string'){
-  a;
-}
+// if (typeof a !== 'string'){
+//   a;
+// }
 
 type Indexable<T> = T extends string ? T & {[index:string]:any} : never;
 type ObjectIndexable = Indexable<{}>;

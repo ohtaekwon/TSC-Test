@@ -2,7 +2,7 @@
 
 <br>
 
-## 2.1. Primitive Type
+### 2.1. Primitive Type의 종류
 
 - 오브젝트와 레퍼런스 형태가 아닌 **실제 값을 저장하는 자료형이다.**
 - 프리미티브 형의 내장 함수를 사용하는 것은 자바스크립트 처리 방식 덕분
@@ -19,12 +19,14 @@
   name.toString();
 ```
 
+### 2.2. Primitive Type의 값
+
 - literal 값으로 Primitive 타입의서브 타입을 나타낼 수 있다.
 
 ```ts
 true;
 'hello';
-3.14;
+3.14; 
 null;
 undefined
 ```
@@ -39,7 +41,7 @@ new Number(42); // typeof new Number(42) : 'object'
 <br>
 
 
-## 2.2. Type Casing
+### 2.3. Type Casing
 
 - **TypeScript의 핵심 primitive types은 모두 소문자이다.**
 
@@ -57,3 +59,8 @@ function reverse(s:string):string{
 }
 reverse("hello World");
 ```
+
+
+### 참고 사이트
+
+- TypeScript 공홈 : [TSC HOME](https://www.typescriptlang.org/)

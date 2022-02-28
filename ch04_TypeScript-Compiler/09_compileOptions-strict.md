@@ -73,3 +73,14 @@
 - 정말로, null과 undefined를 가질수 있는 경우, 해당 값을 조건부로 제외하고 사용하는 것이 좋다.
 - 이 옵션을 켜고 사용하는 경우,
 - 사용하려는 함수를 선언할 때부터 매개변수와 리턴 값에 정확한 타입을 지정하려는 노력을 기울여야하고, 기울이게 될 것이다.
+
+
+#### 9.2.4 --strictFunctionTypes
+
+> 함수 타입에 대한 bivariant 매개변수 검사를 비활서화합니다?
+    Question : Which of the following types could be subtypes of Dog -> Dog?
+
+    
+#### 9.2.5 --strictPropertyInitialization
+
+> 정의되지 않은 클래스의 속성이 생성자에서 초기화되었는지 확인한다. 이 옵션을 사용하려면 `--strictNullChecks`를 사용하도록 설정해야 한다.
