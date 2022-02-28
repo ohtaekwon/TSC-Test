@@ -2,7 +2,7 @@
 
 <br>
 
-## 7.1. Undefined & Null 
+### 7.1. Undefined & Null 
 
 - In TypeScript, both undefined and null actually have their named undefined and null respectively.
 **TypeScript** 에서, **undefined** 와 **null은 실제로 각각 undefined 및 null 이라는 타입을 가진다.** 
@@ -17,14 +17,18 @@ let u:undefined = undefined;
 let n:null=null;
 ```
 
-## 7.2. undefined & null are subtypes of all other types.
+### 7.2. undefined & null are subtypes of all other types.
 - 설정을 하지 않으면 그렇습니다.
 - number에 null 또는 undefined를 할당할 수 있다는 의미이다.
 - 하지만, 컴파일 옵션에서 **'--strictNullChecks'** 사용하면, null과 undefined는 void나 자기 자신들에게만 할당할 수 있다.
-  - 이 경우, **null** 과 **undefined** 를 할당할 수 있게 하려면, `union type` 을 이용해야 한다.
+    - 이 경우, **null** 과 **undefined** 를 할당할 수 있게 하려면, `union type` 을 이용해야 한다.
 
 ```ts
-let name:string=null;
+let name:string=null; // 오류가 발생한다.
+// 왜냐하면 strictNullChecks 옵션을 켜져있는 상태이기 때문이다.
+// "strict":ture를 주석처리하게 되면,
+// string이지만 null을 할당할 수 있게 된다.
+
 let age:number=undefined;
 
 // 1. strictNullChecks => true
@@ -38,7 +42,10 @@ let name:string = null; // (x)
 let u : undefined = null; // (x)
 
 let v : void = undefined; // (o)
+// void는 값으로만 존재해야 하기 때문에,
+// undefined만 넣을 수 있다. 
 
+// union 타입
 let union:string | null | undefined = 'str';
 // uion은 string과 null의 합집합과 같은 개념이다.
 ```
@@ -48,7 +55,7 @@ let union:string | null | undefined = 'str';
 - 2. `|` 은 union으로 string과 null 타입의 합집합의 개념이다.
     - 따라서, `null`, `string`의 값을 가질 수 있다. 
 
-## 7.3 null in JavaScript
+### 7.3 null in JavaScript
 
 - null 이라는 값으로 할당된 것을 null이라고 한다.
 - 무언가가 있는데, 사용할 준비가 덜 된 상태.
@@ -61,7 +68,7 @@ console.log(n); // null
 console.log(typeof n); // obeject
 ```
 
-## 7.4. undefined in JavaScript
+### 7.4. undefined in JavaScript
 
 - 값을 할당하지 않은 변수는 `undefined` 라는 값을 가진다.
 - **무언가가 아예 준비가 안된 상태.**
