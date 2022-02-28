@@ -19,7 +19,13 @@
 }
 ```
 
-### 3.1. compileOnSave
+### 3.2. compileOnSave 사용법
+
+```ts
+"compileOnSave": true,
+```
+
+### 3.3. compileOnSave 
 
 - true / false (default fasle)
 - 누가??
