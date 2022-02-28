@@ -18,3 +18,10 @@
 - [08. compileOptions - outDir, outFile, rootDir]()
 
 - [09. compileOptions - strict]()
+
+
+
+### 참고 사이트
+
+- [tsconfig-schema](https://json.schemastore.org/tsconfig)
+    - https://json.schemastore.org/tsconfig
