@@ -12,7 +12,10 @@ function infiniteLoop():never{
   while(true){}
 }
 
+// 잘못된 타입을 넣는 실수를 막고자 할 때 never를 사용한다.
+// 1.
 // let a : string = "hello"
+// 2.
 // declare const a : string | number;
 
 // if (typeof a !== 'string'){
@@ -21,4 +24,4 @@ function infiniteLoop():never{
 
 type Indexable<T> = T extends string ? T & {[index:string]:any} : never;
 type ObjectIndexable = Indexable<{}>;
-// const b : Indexable<{}> = '';
+// const b : Indexable<{}> = ''; // never
