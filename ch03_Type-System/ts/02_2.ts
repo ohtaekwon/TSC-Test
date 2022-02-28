@@ -10,4 +10,4 @@ function getPersonById(id:PersonID){}
 
 getPersonById(PersonID('id-aaaaa'))
 // 그냥 일반적인 문자열을 넣으면 에러가 발생한다.
-getPersonById('id-aaaaa'); // error
+// getPersonById('id-aaaaa'); // error
