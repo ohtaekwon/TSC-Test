@@ -1,8 +1,7 @@
 # 03. 타입 호환성(Type Compatibility)
 
-<br>
 
-### 서브타입(1)
+### 3.1.1. 서브타입(1)
 ```ts
 // sub1 타입은 sup1 타입의 서브 타입이다.
 let sub1:1 = 1;
@@ -22,7 +21,7 @@ let sup3:number[]=sub3;
 sub3 = sup3; // error! Type 'number[]' is not assignable to type '[number,number]'. Target requres 2 element(s) but source may have fewer.
 ```
 
-### 서브타입(2)
+### 3.1.2. 서브타입(2)
 ```ts
 // sub4 타입은 sup4 타입의 서브 타입이다.
 let sub4:number=1;
@@ -45,7 +44,7 @@ let sup6:Animal=sub6;
 sub6 = sup6; // error
 ```
 
-### 1. 같거나 서브 타입인 경우, 할당이 가능하다. = 공변
+### 3.2. 같거나 서브 타입인 경우, 할당이 가능하다. = 공변
 
 ```ts
 // primitive type
@@ -57,12 +56,12 @@ let sub8:{a:string, b:number}=[{a:'',b:1}];
 let sup8:{a:string|number;b:number}=sub8;
 
 // array - object와 마찬가지
-let sub9:Array<a{string; b:number}> = [{a:'',b:1}];
+let sub9:Array<{a:string; b:number}> = [{a:'',b:1}];
 let sub9:Array<{a:string|number; b:number}> = sub8;
 
 ```
 
-### 2. 함수의 매개변수 타입만 같거나 슈퍼타입인 겨웅, 할당이 가능하다. = 반병
+### 3.3. 함수의 매개변수 타입만 같거나 슈퍼타입인 경우, 할당이 가능하다. = 반병
 
 ```ts
 class Person{}
@@ -92,7 +91,7 @@ tellme(function sToD(d:StartupDeveloper):Developer{
 });
 ```
 
-### strictFunctionTypes 옵션을 켜면
+### 3.4. strictFunctionTypes 옵션을 켜면
 
 - 함수를 할당할 시에 함수의 매개변수 타입이 같거나 슈퍼타입인 경우가 아닌 경우, 에러를 통해 경고한다.
 

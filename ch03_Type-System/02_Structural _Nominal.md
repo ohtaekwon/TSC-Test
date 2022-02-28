@@ -1,8 +1,10 @@
 # 02. Structural Type System vs. Nomial Type System
 
-<br>
+<br/>
 
-### structural type system - 구조가 같으면, 같은 타입이다.
+### 2.1. structural type system 
+
+- 구조가 같으면, 같은 타입이라고 취급하는 방식을 일컫는다.
 
 ```ts
 // interface
@@ -18,6 +20,7 @@ type PersonType={
   age:number;
   speak():string;
 };
+
 // 위는 같은 구조이기 때문에 서로 대입할 수 있다.
 let personInterface : IPerson = {} as any;
 let personType : PersonType= {} as any;
@@ -25,10 +28,17 @@ let personType : PersonType= {} as any;
 personInterface = personType;
 personType = personInterface;
 ```
-### nominal type system - 구조가 같아도 이름이 다르면, 다른 타입이다.
+<br/>
+
+### 2.2. nominal type system 
+
+- 구조가 같아도 이름이 다르면, 다른 타입이다.
 
 ```ts
+// Nomial Type System
 type PersonID = string & {readonly brand:unique symbol};
+// PersonID 타입은 string타입이지만,
+// {readonly brand:unique symbol} 형태를 intersaction한 형태이다.
 
 function PersonID(id:string):PersonID{
   return id as PersonID;
@@ -36,6 +46,7 @@ function PersonID(id:string):PersonID{
 function getPersonById(id:PersonID){}
 
 getPersonById(PersonID('id-aaaaa'))
+/
 getPersonById('id-aaaaa'); // error
 ```
 
