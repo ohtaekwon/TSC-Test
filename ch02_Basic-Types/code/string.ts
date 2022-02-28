@@ -2,7 +2,6 @@ let myName:string = "otk";
 
 myName = 'mark';
 
-
 let fullName:string = `Bob bobbington`;
 let age:number = 31;
 let sentence1:string = `setence1 : Hello, my name is ${fullName}.
