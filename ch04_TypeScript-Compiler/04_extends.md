@@ -2,7 +2,7 @@
 
 - extends는 보통 상속할때 쓰는 키워드
 
-<br>
+<br/>
 
 ### 4.1. extends의 scehma
 
