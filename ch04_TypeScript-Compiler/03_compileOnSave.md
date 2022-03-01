@@ -1,7 +1,5 @@
 # 03. compileOnSave
 
-<br>
-
 ### 3.1. compileOnSave Schema
 
 ```ts
@@ -24,6 +22,9 @@
 ```ts
 "compileOnSave": true,
 ```
+
+- ture일때, 이것은 파일을 save하면, compile한다는 의미이다. 
+
 
 ### 3.3. compileOnSave 
 
