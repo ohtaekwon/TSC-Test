@@ -1,6 +1,5 @@
 # 07. complieOption - target 과 lib
 
-<br>
 
 ### 7.1. complieOptions : target
 
@@ -34,15 +33,8 @@
 },
 ```
 
-
 ### 7.2. complieOptions : lib
 
-```ts
-
-
-
-
-```
 
 
 ### 7.3. target 과 lib
