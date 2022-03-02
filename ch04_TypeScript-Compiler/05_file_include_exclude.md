@@ -1,9 +1,7 @@
 # 05. file, include, exclude
 
 
-<br>
-
-### 5.1. Schema
+### 5.1. Schema - file, include, exclude
 
 ```ts
     "filesDefinition": {
@@ -13,7 +11,7 @@
           "type": "array",
           "uniqueItems": true,
           "items": {
-            "type": "string"
+            "type": "string" // string의 배열
           }
         }
       }
@@ -46,16 +44,16 @@
 
 ### 5.2. file, include, exclude
 
-- 셋다 설정이 없으면, 전부다 컴파일
+- 셋다 설정이 없으면, 전부다 컴파일 하려고 한다.
 - files
     - 상대 혹은 절대 경로의 리스트 배열이다.
-    - exclude 보다 쎄다
+    - `exclude 보다 쎄다`
 - include, exclude
     - glob 패턴(마치 .gitignore)
     - include
-        - exclude 보다 약하다.
-        - *같은걸 사용하면, .ts/ .tsx/ .d.ts 만 include (allowJS)
+        - `exclude 보다 약하다.`
+        - `*` 같은걸 사용하면, .ts/ .tsx/ .d.ts 만 include (allowJS)
     - exclude
-        - 설정 안하면 4가지(node_modules, bower_components, jspm_packages, <outDir>)를 default로 제외한다.
-        - <outDir> 은 
+        - 설정 안하면 4가지(node_modules, bower_components, jspm_packages, `<outDir>` )를 default로 제외한다.
+        - `<outDir>` 은 항상 제외한다.(include에 있어도)
 
