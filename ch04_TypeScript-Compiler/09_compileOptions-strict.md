@@ -37,7 +37,7 @@
 
 > `noImplicitAny` 사용할  때, 인덱스 객체에 인덱스 signature가 없는 경우 오류가 발생하는데 이를 예외처리 한다.
 
-![ch04_09_1_1]()
+![ch04_09_1_1](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_1_1.png?raw=true)
 
 - obj['foo']로 사용할 때, 인덱스 객체라 판단하여, 타입에 인덱스 시그니처가 없는 경우, 에러를 발생시킨다.
 - 이때, `supperssImplicitAnyIndexErrors` 옵션을 사용하면, 이런 경우 예외로 간주하여, 에러를 발생시키지 않는다.
@@ -104,7 +104,7 @@ Question : Which of the following types could be subtypes of `Dog -> Dog` ?
 - 이 문제를 해결하는 옵션이 `strictFunctionTypes`
 - 옵션을 켜면, 에러가 안나던걸 에러 나게 한다.
 
-![ch04_09_02_04_1]()
+![ch04_09_02_04_1](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_02_04_1.png?raw=true)
 
 이전에는 위와 같은 코드도 에러를 발생키지 않았지만, 이제는 에러가 발생하게 된다.
 
@@ -113,11 +113,11 @@ Question : Which of the following types could be subtypes of `Dog -> Dog` ?
 
 > 정의되지 않은 클래스의 속성이 생성자에서 초기화되었는지 확인한다. 이 옵션을 사용하려면 `--strictNullChecks`를 사용하도록 설정해야 한다.
 
-![ch04_09_02_05_1]()
+![ch04_09_02_05_1](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_02_05_1.png?raw=true)
 
 ##### constructor 에서 초기 값을 할당한 경우=> 정상
 
-![ch04_09_02_05_2]()
+![ch04_09_02_05_2](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_02_05_2.png?raw=true)
 
 
 ##### constructor 에서 안하는 경우
@@ -125,7 +125,7 @@ Question : Which of the following types could be subtypes of `Dog -> Dog` ?
 - 보통 다른 함수로 이니셜라이즈 하는 경우(asunc 함수)
 - constructor 에는 async를 사용할 수 없다.
 
-![ch04_09_02_05_3]()
+![ch04_09_02_05_3](https://github.com/ohtaekwon/TSC-Test/blob/master/img/ch04_09_02_05_3.png?raw=true)
 
 #### 9.2.6--strictBindCallApply
 
