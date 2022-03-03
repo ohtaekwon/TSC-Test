@@ -13,11 +13,11 @@
 
 - [06. compileOptions - typeRoots, types](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/06_compileOptions-typeRoots-types.md)
 
-- [07. compileOptions - target과 lib]()
+- [07. compileOptions - target과 lib](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/07_comileOptions-target_lib.md)
 
-- [08. compileOptions - outDir, outFile, rootDir]()
+- [08. compileOptions - outDir, outFile, rootDir](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/08_compileOptions-outDir_outFile_rootDir.md)
 
-- [09. compileOptions - strict]()
+- [09. compileOptions - strict](https://github.com/ohtaekwon/TSC-Test/blob/master/ch04_TypeScript-Compiler/09_compileOptions-strict.md)
 
 
 
