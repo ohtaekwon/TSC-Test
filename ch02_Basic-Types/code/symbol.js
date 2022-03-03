@@ -8,3 +8,4 @@ const obj = {
 };
 // obj["sym"]
 obj[sym]; // 'value'
+console.log(obj[sym]);
