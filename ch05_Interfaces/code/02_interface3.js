@@ -15,4 +15,4 @@ const p33 = {
     father: p31,
     mother: p32,
 };
-hello3(p33);
+hello3(p33); // 안녕하세여! duckgu 입니다.
