@@ -1,5 +1,12 @@
-class ch06Person{}
+class Ch06Person{
+  // 프로퍼티로 사용하기 위해서는
+  name;
 
-const ch06_p1 = new ch06Person();
+  constructor(name:string){
+    this.name=name;
+  }
+}
 
-console.log(ch06_p1);
+const ch06_p1 = new Ch06Person('Mark');
+
+console.log(ch06_p1); // ch06Person {}
