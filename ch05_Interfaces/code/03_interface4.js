@@ -23,5 +23,5 @@ const p42 = {
 //   // },
 // error가 발생하낟.
 // };
-p41.hello();
-p42.hello();
+p41.hello(); // 안녕하세요. Mark 입니다.
+p42.hello(); // 안녕하세요. Mark 입니다.
